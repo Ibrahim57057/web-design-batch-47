@@ -1,0 +1,161 @@
+.main_header{}
+
+	
+.main_cover{
+height:400px;padding:100px 0px;
+	background:rgba(6,0,8,0.7)
+}
+.header_title{text-align:center;color:white;
+	font-size:40px;font-family:calibri;font-weight:bolder
+	}
+.header_text{
+text-align:center;color:white;
+	font-size:20px;font-family:calibri;font-weight:;
+}
+.header_link{text-align:center;}
+
+
+
+.header_link a{
+    text-decoration:none;
+    padding:10px 30px;display:inline-block;
+    margin:0px 10px;
+    border:solid 2px white;
+    color:blue; background:white;text-align:center;
+ border-radius:10px;margin:10px;
+}
+
+
+.header_link a:hover{    border:solid 2px blue;}
+
+
+
+
+/*  intro segment*/
+.intro_seg {display:inline-block;width:27%;border:solid 2px gray;margin:5px;
+text-align:center;}
+
+.intro_seg_main {border:solid 0px gray;padding:50px 20px;text-align:center;}
+.intro_seg_main_title {padding:100pxx 0px;text-align:center;
+font-weight:bolder;color:LIGHTBLUE;font-size:40px;}
+
+.intro_seg_img {height:250px;width:90%;display:inline-block;}
+.intro_seg_title {background:rgba(0,0,0,0.7);padding:50px 0px;text-align:center;
+font-weight:bolder;color:white;font-size:25px;}
+
+
+
+
+.nav_bar{background:black;text-align:center;}
+.nav_bar   a{color:lightblue;font-family:calibri;font-size:20px;text-decoration:none;
+display:inline-block;border:solid 1px black;padding:5px 10px;}
+
+.nav_bar   a:hover{color:white;border:solid 1px white;}
+
+
+
+.nav_reg{display:inline-block;padding:10px;}
+
+.nav_bar  .nav_reg a{color:white}
+
+.reg{background:blue;color:white;font-family:calibri;font-size:18px;text-decoration:none;
+display:inline-block;border:solid 2px blue;padding:5px 20px;border-radius:10px;}
+
+
+
+.welcome_section{
+    padding:100px 30px;
+    text-align:center;
+    vertical-align:top;
+}
+
+
+.welcome_section_left{
+    border:solid 1px blue;
+    padding:20px 50px;width:40%;
+    text-align:center;
+    vertical-align:top;
+
+    height:400px;display:inline-block;
+}
+
+
+
+.welcome_section_right{
+    border:solid 1px blue;
+    padding:10px;width:40%;
+    text-align:justify;
+    vertical-align:top;
+    display:inline-block;height:400px;
+
+}
+
+
+.welcome_section_right_title{
+    padding:10px;text-transform:capitalize;
+    text-align:left;
+font-size:40px;color:lightblue;
+}
+
+
+
+.welcome_section_link{
+    padding:10px 30px;display:inline-block;
+    width:50%;
+    color:white; background:blue;text-align:center;
+ border-radius:10px;margin:10px;
+}
+
+
+.contactform{
+    display:inline-block;
+    padding:20px;
+    width:600px;
+    margin:5px;
+}
+
+
+.contactform input,select{
+    border:solid 2px lightblue;
+    font-size:20px;
+    color:blue;
+    width:90%;
+    margin-bottom:8px;
+    padding:4px;
+    border-radius:10px;
+}
+
+
+.contactform label{border:solid white 1px;}
+
+.contactform button{
+    border:solid 2px lightblue;
+    font-size:20px;
+    color:blue;
+    width:50%;
+    margin:10px 0px;
+    padding:10 5pxpx;
+    border-radius:10px;
+    background-color:rgb(54, 52, 52);
+}
+
+
+@media screen and (max-width:800px)
+{
+
+.intro_seg {width:95%;}
+.nav_bar   a{margin:10px 5px;}
+
+.main_cover{
+height:300px;padding:50px 0px;
+	background:rgba(6,0,8,0.7)}
+
+
+    
+.welcome_section_right{width:90%;}
+.welcome_section_left{width:90%;margin-bottom:10px;}
+
+
+}
+
+
